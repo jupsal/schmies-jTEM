@@ -1,0 +1,40 @@
+<html>
+<body>
+
+<!--  teaser start -->
+mfc provides <b>m</b>athematical <b>f</b>oundation <b>c</b>lasses, e.g.,
+complex numbers, polynomials, 2x2-matrices, fractional linear transformations, quaternions.
+<!--  teaser end -->
+
+<p>
+Internally, all data is adminstered with primitive data types for
+performance reasons. Externally, all classes offer a great deal of
+functionality and convenience.
+</p><p>
+</p><p>
+The general convention for all classes is the following:
+</p><p>
+Operations can be performed using two sets of methods. To multiply,
+for example, two instances <code>A</code> and <code>B</code> of a
+class, you may either call 
+</p><p>
+<center>
+<code>C = A.times(B)</code> &nbsp; or &nbsp; <code>C.assignTimes(A,B)</code> 
+</center>
+</p><p>
+to store the result in <code>C</code>. In the first case, a new
+instance is created, in the latter this is avoided.
+</p><p>
+All operations follow this convention, and data types mix: 
+</p><p>
+To multiply and instance <code>A</code> with a double <code>d</code>
+</p><p>
+<center>
+<code>A = A.times(d)</code> &nbsp; or &nbsp; <code>A.assignTimes(d)</code> 
+</center>
+</p><p>
+Entries can be accessed using <code>set</code>- and
+<code>get</code>-methods and various data types.
+</p>
+</html>
+</body>

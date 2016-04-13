@@ -1,0 +1,4185 @@
+<?xml version="1.0"?>
+<log>
+<logentry
+   revision="126">
+<author>schmies</author>
+<date>2006-07-19T11:13:53.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/FunctionSetOnAlgebraicCurve.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AlgebraicCurve.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/Corrector.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AnalyticContinuation.java</path>
+<path
+   action="M">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/Corrector.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AnalyticContinuousIntegratorODE.java</path>
+<path
+   action="M">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AnalyticIntegrator.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AnalyticContinuationODE.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/analyticConinuation/AnalyticContinuousIntegrator.java</path>
+</paths>
+<msg>add analyticContinuation package.
+extracted associated functionality from riemannSurface.
+</msg>
+</logentry>
+<logentry
+   revision="125">
+<author>schmies</author>
+<date>2006-02-09T15:18:01.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="124">
+<author>schmies</author>
+<date>2006-02-09T13:05:17.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>fixexed kp2
+</msg>
+</logentry>
+<logentry
+   revision="123">
+<author>schmies</author>
+<date>2006-01-20T18:12:29.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="122">
+<author>schmies</author>
+<date>2006-01-20T08:38:08.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="121">
+<author>schmies</author>
+<date>2006-01-20T07:35:39.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="M">/trunk/excludefiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="120">
+<author>schmies</author>
+<date>2006-01-20T07:16:25.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="D">/trunk/doc/kp2.gif</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="119">
+<author>schmies</author>
+<date>2006-01-18T16:53:00.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="118">
+<author>schmies</author>
+<date>2006-01-17T01:12:08.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/de/jtem/riemann/package.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="117">
+<author>schmies</author>
+<date>2006-01-17T00:54:29.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/package.html</path>
+<path
+   action="M">/trunk/src/de/jtem/riemann/package.html</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="116">
+<author>schmies</author>
+<date>2006-01-17T00:09:16.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="A">/trunk/doc/kp2.gif</path>
+<path
+   action="A">/trunk/doc/index.17.gif</path>
+<path
+   action="A">/trunk/doc/index.18.gif</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="115">
+<author>schmies</author>
+<date>2006-01-16T21:41:48.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/excludefiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="114">
+<author>schmies</author>
+<date>2006-01-16T21:36:43.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/excludefiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="113">
+<author>schmies</author>
+<date>2006-01-16T21:17:22.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/doc/index.10.gif</path>
+<path
+   action="A">/trunk/doc/index.11.gif</path>
+<path
+   action="A">/trunk/doc/index.12.gif</path>
+<path
+   action="A">/trunk/doc/index.13.gif</path>
+<path
+   action="A">/trunk/doc/index.15.gif</path>
+<path
+   action="A">/trunk/doc/index.16.gif</path>
+<path
+   action="A">/trunk/doc/index.1.gif</path>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="A">/trunk/doc/index.2.gif</path>
+<path
+   action="A">/trunk/doc/index.3.gif</path>
+<path
+   action="A">/trunk/doc/index.4.gif</path>
+<path
+   action="A">/trunk/doc/index.5.gif</path>
+<path
+   action="A">/trunk/doc/index.6.gif</path>
+<path
+   action="A">/trunk/doc/index.7.gif</path>
+<path
+   action="A">/trunk/doc/index.8.gif</path>
+<path
+   action="A">/trunk/doc/index.9.gif</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="112">
+<author>schmies</author>
+<date>2006-01-16T20:17:04.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="111">
+<author>schmies</author>
+<date>2006-01-16T12:26:42.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/de/jtem/riemann/schottky/SchottkyData.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyDataBeanInfo.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/DragRealSymmetricSchottkyTool.java</path>
+<path
+   action="A">/trunk/attic</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/de/jtem/riemann/schottky/Schottky.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyDataBeanInfo.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/DragRealSymmetricSchottkyTool.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/attic/de/jtem</path>
+<path
+   action="D">/trunk/src/de/jtem/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="A">/trunk/attic/de/jtem/riemann/schottky</path>
+<path
+   action="A">/trunk/attic/de</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="110">
+<author>schmies</author>
+<date>2005-05-30T15:51:13.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/de/jtem/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/de/jtem/riemann/schottky/Schottky.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="109">
+<author>schmies</author>
+<date>2005-05-26T10:49:07.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/DragRealSymmetricSchottkyTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="108">
+<author>schmies</author>
+<date>2005-04-29T14:16:45.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/Dependent.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/Sigma.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/example/isothermic</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/util/Intersect.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/example/isothermic/Genus7ExampleBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ExampleSlice.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/Transform.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/SingularPoint.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePoints.java</path>
+<path
+   action="A">/trunk/src/de/jtem</path>
+<path
+   action="A">/trunk/src/de</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringCustomizer.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/SurfacePoint.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/ToupleConstrain.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/util/RadialPathGenerator.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/AbstractTheta.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ModularTransformation.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/IllegalCoordinateException.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/example</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/AbelMap.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/Origin.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsInEllipsoid_old.java</path>
+<path
+   action="D">/trunk/test/riemann</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/RealSymmetrie.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/Fix.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestModularTransformation.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/Test.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsInEllipsoidIterator.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/schottky/SchottkyGroupElementTest.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/schottky/AbelMapTest.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/SingleConstrain.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/PointSymmetry.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/AbelianFunction.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsForUniformApproximation_old.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/Theta.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyData.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/Basis.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyDataBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/PeriodMatrix.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/Schottky.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/schottky</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsList.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyAnalysis.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/ThetaDegree.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie/GuIntegerMatrix.java</path>
+<path
+   action="D">/trunk/src/riemann</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/homologie</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/UnitCircleSymmetrie.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/ConstrainedComplex.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/theta/TestTheta.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/util/Line.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="A">/trunk/test/de/jtem/riemann/schottky/TestSchottky.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SigmaAnalysisFunctionFactory.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/package.html</path>
+<path
+   action="A">/trunk/test/de/jtem</path>
+<path
+   action="A">/trunk/test/de</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/package.html</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/Real.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/DocletDummy.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/theta/SiegelReduction.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyDomainSampler.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/util</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/surface/BranchPoint.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/constrainedComplex/Constrain.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/util/LineSeg.java</path>
+<path
+   action="A">/trunk/src/de/jtem/riemann/schottky/SchottkyCustomizer.java</path>
+</paths>
+<msg>add prefix de.jtem.
+</msg>
+</logentry>
+<logentry
+   revision="107">
+<author>schmies</author>
+<date>2005-04-26T10:01:57.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoidIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk</path>
+<path
+   action="M">/trunk/test/riemann/schottky/AbelMapTest.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/util/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/util/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/PointSymmetry.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/Dependent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7ExampleBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/util/RadialPathGenerator.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelMap.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="A">/trunk/.cvsignore</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsList.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/constrainedComplex/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntegerMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="106">
+<author>schmies</author>
+<date>2005-04-15T12:46:01.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/RealFunctionOnSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelMap.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyDomainSampler.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="105">
+<author>schmies</author>
+<date>2004-10-11T06:05:22.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoidIterator.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/LatticePointsInEllipsoid_old.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/LatticePointsList.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/LatticePoints.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation_old.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="104">
+<author>schmies</author>
+<date>2004-10-09T12:42:27.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoidIterator.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="103">
+<author>schmies</author>
+<date>2004-09-30T10:38:31.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/theta/LatticePointsInEllipsoidIterator.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="102">
+<author>schmies</author>
+<date>2004-09-25T07:48:45.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/test/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/LatticePointsForUniformApproximation_old.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="101">
+<author>schmies</author>
+<date>2004-09-07T05:46:56.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/test/riemann/theta/TestModularGroup.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/ModularTransformation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestModularTransformation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="100">
+<author>schmies</author>
+<date>2004-09-03T11:09:20.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="99">
+<author>khadem</author>
+<date>2004-09-01T07:19:07.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/index.html</path>
+</paths>
+<msg>body tags added
+</msg>
+</logentry>
+<logentry
+   revision="98">
+<author>schmies</author>
+<date>2004-08-28T11:17:20.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelMap.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="97">
+<author>schmies</author>
+<date>2004-08-21T15:35:28.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Sigma.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="96">
+<author>schmies</author>
+<date>2004-08-20T16:40:49.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/package.html</path>
+<path
+   action="M">/trunk/doc/index.html</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>hilfe
+</msg>
+</logentry>
+<logentry
+   revision="95">
+<author>schmies</author>
+<date>2004-07-16T08:26:43.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="94">
+<author>schmies</author>
+<date>2004-06-28T06:59:03.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="93">
+<author>schmies</author>
+<date>2004-04-13T05:58:37.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="92">
+<author>schmies</author>
+<date>2004-04-07T09:42:02.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/RealFunctionOnSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="91">
+<author>schmies</author>
+<date>2004-03-26T16:50:32.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/util/RadialPathGenerator.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="90">
+<author>schmies</author>
+<date>2004-03-23T11:04:02.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="89">
+<author>schmies</author>
+<date>2004-03-18T11:43:51.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="88">
+<author>schmies</author>
+<date>2004-03-17T10:36:22.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/Constrain.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/IllegalCoordinateException.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/ConstrainedComplex.java</path>
+<path
+   action="A">/trunk/src/riemann/util/LineSeg.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/SingleConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="A">/trunk/src/riemann/util/Line.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/PointSymmetry.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/Dependent.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="A">/trunk/src/riemann/util/Intersect.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/Real.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/ToupleConstrain.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/PointSymmetry.java</path>
+<path
+   action="A">/trunk/src/riemann/util</path>
+<path
+   action="A">/trunk/src/riemann/util/RadialPathGenerator.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/Dependent.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/SingleSurfacePointConstrain.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="A">/trunk/src/riemann/constrainedComplex/Fix.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="87">
+<author>schmies</author>
+<date>2004-01-22T11:58:27.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Sigma.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointSymmetry.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/SchottkyGroupElementTest.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDataBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingleSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SigmaAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Dependent.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelMap.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestThetaWithChar.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="86">
+<author>schmies</author>
+<date>2004-01-13T18:03:34.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="85">
+<author>schmies</author>
+<date>2004-01-05T10:35:03.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="84">
+<author>schmies</author>
+<date>2003-12-30T15:12:25.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="83">
+<author>schmies</author>
+<date>2003-12-19T16:03:22.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/src/riemann/ellipticFunctions</path>
+<path
+   action="D">/trunk/test/riemann/ellipticFunctions</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="82">
+<author>schmies</author>
+<date>2003-12-16T19:24:38.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/test/riemann/ellipticFunctions/TestJacobi.java</path>
+<path
+   action="A">/trunk/src/riemann/ellipticFunctions</path>
+<path
+   action="A">/trunk/src/riemann/ellipticFunctions/Elliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="A">/trunk/src/riemann/ellipticFunctions/Jacobi.java</path>
+<path
+   action="A">/trunk/test/riemann/ellipticFunctions</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/PointSymmetry.java</path>
+<path
+   action="A">/trunk/test/riemann/ellipticFunctions/TestElliptic.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="81">
+<author>khadem</author>
+<date>2003-12-05T11:41:59.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/doc/index.html</path>
+<path
+   action="D">/trunk/doc/philosophy.txt</path>
+</paths>
+<msg>philosophy.txt -&gt; index.html
+</msg>
+</logentry>
+<logentry
+   revision="80">
+<author>schmies</author>
+<date>2003-12-02T15:58:50.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="79">
+<author>schmies</author>
+<date>2003-11-19T16:46:08.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SigmaAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="78">
+<author>schmies</author>
+<date>2003-10-29T13:24:03.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="77">
+<author>schmies</author>
+<date>2003-10-20T15:38:33.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyDataBeanInfo.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="76">
+<author>schmies</author>
+<date>2003-09-09T16:33:30.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/PeriodMatrix.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/test/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/TestSchottky.java</path>
+</paths>
+<msg>changed order in cross ratio
+</msg>
+</logentry>
+<logentry
+   revision="75">
+<author>schmies</author>
+<date>2003-09-03T19:32:02.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/test/riemann/schottky/SchottkyGroupElementTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/PeriodMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="74">
+<author>schmies</author>
+<date>2003-09-03T16:09:16.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/test/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="73">
+<author>schmies</author>
+<date>2003-09-02T14:47:18.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/test/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestTheta.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="A">/trunk/test/riemann/theta</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestModularGroup.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="D">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="A">/trunk/test/riemann/theta/TestThetaWithChar.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="72">
+<author>schmies</author>
+<date>2003-08-30T15:40:30.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkyAbelMapSupport.java</path>
+<path
+   action="A">/trunk/test/riemann/schottky/AbelMapTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Sigma.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/TestSchottky.java</path>
+<path
+   action="D">/trunk/test/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/AbelMap.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SigmaAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkyDataVariation.java</path>
+<path
+   action="D">/trunk/test/riemann/schottky/SchottkyAbelMapSupportTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="71">
+<author>schmies</author>
+<date>2003-08-28T18:28:04.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/lib/blas.jar</path>
+<path
+   action="A">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="A">/trunk/lib</path>
+<path
+   action="A">/trunk/lib/mfc.jar</path>
+<path
+   action="A">/trunk/lib/moebiusViewer.jar</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="70">
+<author>schmies</author>
+<date>2003-08-28T16:08:41.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntegerMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Sigma.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SigmaAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="69">
+<author>schmies</author>
+<date>2003-08-27T15:01:08.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="68">
+<author>schmies</author>
+<date>2003-08-23T10:09:01.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="67">
+<author>schmies</author>
+<date>2003-08-21T18:31:43.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/test/riemann/schottky/SchottkyAbelMapSupportTest.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/test/riemann/schottky/SchottkyTest.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="66">
+<author>schmies</author>
+<date>2003-08-21T17:16:47.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Sigma.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="M">/trunk/src/riemann/DocletDummy.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyData.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingleSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/PeriodMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAnalysis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDataVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntegerMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7ExampleBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Dependent.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyAbelMapSupport.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="65">
+<author>schmies</author>
+<date>2003-08-21T14:00:08.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/schottky/PeriodMatrix.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/AbelianDifferential.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/AbelianDifferentialAnalysisFunctionFactory.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/Sigma.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/AbelianIntegral.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyAnalysisFunction.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/AbelianIntegralAnalysisFunctionFactory.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyAnalysisFunctionShape.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="64">
+<author>schmies</author>
+<date>2003-08-21T11:38:50.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyAbelMapSupport.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyGroupElement.java</path>
+<path
+   action="A">/trunk/test/riemann</path>
+<path
+   action="A">/trunk/test/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="A">/trunk/test/riemann/schottky/TestSchottky.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyData.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="A">/trunk/test</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="D">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="A">/trunk/test/riemann/schottky</path>
+<path
+   action="D">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyAnalysis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="A">/trunk/test/riemann/schottky/SchottkyAbelMapSupportTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDataVariation.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="63">
+<author>schmies</author>
+<date>2003-07-11T10:52:20.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="62">
+<author>schmies</author>
+<date>2003-07-10T15:48:59.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="61">
+<author>schmies</author>
+<date>2003-07-10T15:18:35.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/lib</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="60">
+<author>schmies</author>
+<date>2003-06-27T09:58:31.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="59">
+<author>schmies</author>
+<date>2003-06-24T13:22:51.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Dependent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingleSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDataVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>renamed Complex into ComplexVariable
+</msg>
+</logentry>
+<logentry
+   revision="58">
+<author>schmies</author>
+<date>2003-06-10T14:16:30.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="57">
+<author>schmies</author>
+<date>2003-05-12T14:52:32.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="56">
+<author>schmies</author>
+<date>2003-05-05T16:23:01.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="55">
+<author>khadem</author>
+<date>2003-04-29T20:24:35.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/doc/philosophy.txt</path>
+</paths>
+<msg>obsolete headline removed
+</msg>
+</logentry>
+<logentry
+   revision="54">
+<author>schmies</author>
+<date>2003-01-30T17:42:21.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/surface/example/isothermic/Genus7ExampleBeanInfo.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="53">
+<author>schmies</author>
+<date>2003-01-30T17:30:47.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyBeanInfo.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RamifiedCoveringShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="52">
+<author>schmies</author>
+<date>2003-01-27T20:18:02.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/surface/example/isothermic/Genus7Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/example/isothermic/Genus4Example.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="51">
+<author>schmies</author>
+<date>2003-01-27T14:08:32.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/surface/example</path>
+<path
+   action="A">/trunk/src/riemann/surface/example/isothermic</path>
+<path
+   action="A">/trunk/src/riemann/surface/example/isothermic/Genus4Example.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="50">
+<author>schmies</author>
+<date>2003-01-27T13:57:24.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/src/riemann/surface/AbstractAlgebraicCurveWithForms.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/Real.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/Dependent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCovering.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/SingleSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/RamifiedCoveringShapeBeanInfo.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="49">
+<author>schmies</author>
+<date>2003-01-23T09:02:57.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="48">
+<author>schmies</author>
+<date>2003-01-21T11:51:39.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="47">
+<author>schmies</author>
+<date>2003-01-06T12:00:20.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="46">
+<author>schmies</author>
+<date>2002-12-18T17:38:19.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>changed times into dot
+</msg>
+</logentry>
+<logentry
+   revision="45">
+<author>schmies</author>
+<date>2002-11-26T17:54:53.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="44">
+<author>schmies</author>
+<date>2002-11-26T17:46:30.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>perform siegel transformation in genus one case
+</msg>
+</logentry>
+<logentry
+   revision="43">
+<author>schmies</author>
+<date>2002-11-18T16:09:26.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="42">
+<author>schmies</author>
+<date>2002-11-05T12:22:53.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="41">
+<author>schmies</author>
+<date>2002-11-04T17:47:44.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="40">
+<author>schmies</author>
+<date>2002-10-18T11:20:07.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyDataVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="39">
+<author>schmies</author>
+<date>2002-09-20T20:48:48.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="38">
+<author>schmies</author>
+<date>2002-09-02T19:25:13.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="37">
+<author>schmies</author>
+<date>2002-09-02T19:22:32.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/lib/moebiusViewer.jar</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="36">
+<author>schmies</author>
+<date>2002-08-27T15:43:48.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="35">
+<author>schmies</author>
+<date>2002-08-22T19:21:01.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="34">
+<author>schmies</author>
+<date>2002-08-22T15:58:37.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="A">/trunk/lib/moebiusViewer.jar</path>
+<path
+   action="D">/trunk/lib/viewer2d.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+</paths>
+<msg>switched to moebiusViewer
+</msg>
+</logentry>
+<logentry
+   revision="33">
+<author>schmies</author>
+<date>2002-08-08T16:32:07.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/lib/mfc.jar</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="32">
+<author>schmies</author>
+<date>2002-07-31T15:57:39.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="31">
+<author>schmies</author>
+<date>2002-07-29T09:51:40.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="30">
+<author>schmies</author>
+<date>2002-07-11T13:08:38.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="29">
+<author>schmies</author>
+<date>2002-07-09T14:12:25.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="28">
+<author>schmies</author>
+<date>2002-07-07T16:58:38.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="27">
+<author>schmies</author>
+<date>2002-06-28T20:29:32.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="26">
+<author>schmies</author>
+<date>2002-06-22T18:40:07.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="A">/trunk/src/riemann/schottky/SchottkyDomain.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="25">
+<author>schmies</author>
+<date>2002-06-19T16:13:33.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="24">
+<author>schmies</author>
+<date>2002-06-07T16:13:55.000000Z</date>
+<paths>
+<path
+   action="D">/trunk/doc/linkJavaDocs.txt</path>
+<path
+   action="D">/trunk/doc/perspective.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="23">
+<author>schmies</author>
+<date>2002-06-07T15:32:13.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/package.html</path>
+<path
+   action="M">/trunk/doc/philosophy.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="22">
+<author>schmies</author>
+<date>2002-06-07T15:29:18.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/package.html</path>
+<path
+   action="M">/trunk/doc/philosophy.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="21">
+<author>schmies</author>
+<date>2002-06-07T14:31:31.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/package.html</path>
+<path
+   action="M">/trunk/doc/philosophy.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="20">
+<author>schmies</author>
+<date>2002-06-06T18:08:15.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="19">
+<author>schmies</author>
+<date>2002-06-06T14:44:35.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="M">/trunk/lib/blas.jar</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="D">/trunk/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/homologie/GuIntegerMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>changed double into real and int into integer
+</msg>
+</logentry>
+<logentry
+   revision="18">
+<author>schmies</author>
+<date>2002-06-06T11:40:14.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="M">/trunk/lib/mfc.jar</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="17">
+<author>schmies</author>
+<date>2002-06-05T09:48:10.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="M">/trunk/src/riemann/DocletDummy.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="M">/trunk/lib/blas.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/lib/numericalMethods.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/lib/mfc.jar</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="16">
+<author>marina</author>
+<date>2002-06-05T08:43:05.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+</paths>
+<msg>commentary corrections
+</msg>
+</logentry>
+<logentry
+   revision="15">
+<author>schmies</author>
+<date>2002-06-05T08:30:47.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/DocletDummy.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>redid foratting
+</msg>
+</logentry>
+<logentry
+   revision="14">
+<author>schmies</author>
+<date>2002-06-04T15:34:46.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/DocletDummy.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Line.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="M">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="M">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>added GPL header
+</msg>
+</logentry>
+<logentry
+   revision="13">
+<author>marina</author>
+<date>2002-06-03T12:50:02.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/ThetaDegree.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="12">
+<author>schmies</author>
+<date>2002-06-03T09:37:04.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="11">
+<author>marina</author>
+<date>2002-06-03T09:29:21.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+</paths>
+<msg>changed commentary
+</msg>
+</logentry>
+<logentry
+   revision="10">
+<author>schmies</author>
+<date>2002-05-31T14:27:33.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/README</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="9">
+<author>schmies</author>
+<date>2002-05-31T13:32:03.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="8">
+<author>schmies</author>
+<date>2002-05-31T13:32:02.000000Z</date>
+<paths>
+<path
+   action="A">/trunk/README</path>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="7">
+<author>schmies</author>
+<date>2002-05-31T13:27:03.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="6">
+<author>schmies</author>
+<date>2002-05-31T12:43:25.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="5">
+<author>schmies</author>
+<date>2002-05-31T12:19:09.000000Z</date>
+<paths>
+<path
+   action="M">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="M">/trunk/publicfiles.txt</path>
+<path
+   action="M">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="M">/trunk/lib/blas.jar</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/package.html</path>
+<path
+   action="M">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="A">/trunk/src/riemann/theta/AbelianFunction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   action="M">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+</paths>
+<msg>*** empty log message ***
+</msg>
+</logentry>
+<logentry
+   revision="4">
+<date>2002-05-29T16:42:35.000000Z</date>
+<paths>
+<path
+   copyfrom-path="/branches/jrandom"
+   copyfrom-rev="2"
+   action="A">/tags/start</path>
+</paths>
+<msg>This commit was manufactured by cvs2svn to create tag 'start'.</msg>
+</logentry>
+<logentry
+   revision="3">
+<author>schmies</author>
+<date>2002-05-29T16:42:34.000000Z</date>
+<paths>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceVariation.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/LatticePointsForUniformApproximation.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/RealSymmetrie.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/DragSchottkyTool.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   copyfrom-path="/branches/jrandom/doc/perspective.txt"
+   copyfrom-rev="2"
+   action="A">/trunk/doc/perspective.txt</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/package.html"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/package.html</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/Fix.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/Fix.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/ExampleSlice.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/ExampleSlice.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestModularGroup.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestModularGroup.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/DocletDummy.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/DocletDummy.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/TransformState.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="A">/trunk/src</path>
+<path
+   action="A">/trunk/src/riemann/schottky</path>
+<path
+   action="A">/trunk/src/riemann/surface/homologie</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestSiegelReduction.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/BranchPoint.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/BranchPoint.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkySampler.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestThetaWithChar.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="A">/trunk/lib</path>
+<path
+   copyfrom-path="/branches/jrandom/lib/viewer2d.jar"
+   copyfrom-rev="2"
+   action="A">/trunk/lib/viewer2d.jar</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestTheta.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestTheta.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestModularPropertySupport.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurveShape.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/MoebiusForSchottky.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   copyfrom-path="/branches/jrandom/Makefile"
+   copyfrom-rev="2"
+   action="A">/trunk/Makefile</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/Line.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/Line.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/Origin.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/Origin.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/Schottky.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/Schottky.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/ThetaCharIterator.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestLatticePointsInEllipsoid.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/HyperElliptic.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/Transform.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/Transform.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/GuIntMatrix.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/GeneralRiemannSurface.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/UnitCircleSymmetrie.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/Test.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/Test.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurve.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/AbstractTheta.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/AbstractTheta.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/PointPassedCutEvent.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/TestGuIntMat.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   copyfrom-path="/branches/jrandom/lib/blas.jar"
+   copyfrom-rev="2"
+   action="A">/trunk/lib/blas.jar</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/TwoSurfacePointConstrain.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="A">/trunk/src/riemann/surface</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/SymmetricBasis.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   copyfrom-path="/branches/jrandom/lib/viewer3d.jar"
+   copyfrom-rev="2"
+   action="A">/trunk/lib/viewer3d.jar</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestLatticePointsForUniformApproximation.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/CannotSetCoordinateException.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/LineSeg.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/LineSeg.java</path>
+<path
+   action="A">/trunk/src/riemann</path>
+<path
+   copyfrom-path="/branches/jrandom/doc/philosophy.txt"
+   copyfrom-rev="2"
+   action="A">/trunk/doc/philosophy.txt</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/Test.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/ModularGroup.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/ModularGroup.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/Intersect.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/Intersect.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/SurfacePoint.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/SurfacePoint.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/SiegelReduction.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/SiegelReduction.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkyShape.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkyShapeBeanInfo.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/ThetaWithChar.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/DistinguishedPoint.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="A">/trunk/doc</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/FixPointsOfInvolution.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceShape.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/DragSurfacePointsTool.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TestSiegelTransform.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/Theta.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/Theta.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/ModularPropertySupport.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/SurfacePointConstrain.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/Basis.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/Basis.java</path>
+<path
+   copyfrom-path="/branches/jrandom/publicfiles.txt"
+   copyfrom-rev="2"
+   action="A">/trunk/publicfiles.txt</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkyTest.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/TestSchottky.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/TestSchottky.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/TransformPropertySupport.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/theta/LatticePointsInEllipsoid.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/CanonicalBasis.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   copyfrom-path="/branches/jrandom/lib/numericalMethods.jar"
+   copyfrom-rev="2"
+   action="A">/trunk/lib/numericalMethods.jar</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkyEvaluatorShape.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="A">/trunk/src/riemann/surface/hyperElliptic</path>
+<path
+   action="A">/trunk/src/riemann/theta</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/homologie/SymmetricTest.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   copyfrom-path="/branches/jrandom/lib/mfc.jar"
+   copyfrom-rev="2"
+   action="A">/trunk/lib/mfc.jar</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/SingularPoint.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/SingularPoint.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceState.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   copyfrom-path="/branches/jrandom/doc/linkJavaDocs.txt"
+   copyfrom-rev="2"
+   action="A">/trunk/doc/linkJavaDocs.txt</path>
+<path
+   copyfrom-path="/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java"
+   copyfrom-rev="2"
+   action="A">/trunk/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+</paths>
+<msg>This commit was generated by cvs2svn to compensate for changes in r2,
+which included commits to RCS files with non-trunk default branches.
+</msg>
+</logentry>
+<logentry
+   revision="2">
+<author>schmies</author>
+<date>2002-05-29T16:42:34.000000Z</date>
+<paths>
+<path
+   action="A">/branches/jrandom/doc/philosophy.txt</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/Test.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/ModularGroup.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurve.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/Intersect.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/SurfacePoint.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/SiegelReduction.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkyShape.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkyShapeBeanInfo.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/ThetaWithChar.java</path>
+<path
+   action="A">/branches/jrandom/doc</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/DistinguishedPoint.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/FixPointsOfInvolution.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestSiegelTransform.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/DragSurfacePointsTool.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceShape.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/Theta.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/ModularPropertySupport.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/SurfacePointConstrain.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceShapeBeanInfo.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/Basis.java</path>
+<path
+   action="A">/branches/jrandom/publicfiles.txt</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkyTest.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/TestSchottky.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TransformPropertySupport.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/LatticePointsInEllipsoid.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/CanonicalBasis.java</path>
+<path
+   action="A">/branches/jrandom/lib/numericalMethods.jar</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkyEvaluatorShape.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkyEvaluatorShapeBeanInfo.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/SingularPoint.java</path>
+<path
+   action="A">/branches/jrandom/lib/mfc.jar</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/SymmetricTest.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceState.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurface.java</path>
+<path
+   action="A">/branches/jrandom/doc/linkJavaDocs.txt</path>
+<path
+   action="A">/branches/jrandom</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurveExample.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/GeneralRiemannSurfaceVariation.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/LatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/RealSymmetrie.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/DragSchottkyTool.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticCurveCustomizer.java</path>
+<path
+   action="A">/branches/jrandom/doc/perspective.txt</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShape.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceShapeBeanInfo.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/package.html</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/Fix.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/ExampleSlice.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestModularGroup.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/DocletDummy.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/TransformState.java</path>
+<path
+   action="A">/branches/jrandom/src</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestSiegelReduction.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/BranchPoint.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestThetaWithChar.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/SchottkySampler.java</path>
+<path
+   action="A">/branches/jrandom/lib</path>
+<path
+   action="A">/branches/jrandom/lib/viewer2d.jar</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestTheta.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestModularPropertySupport.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurveShape.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/MoebiusForSchottky.java</path>
+<path
+   action="A">/branches/jrandom/Makefile</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurveShapeBeanInfo.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/Line.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/Origin.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/hyperElliptic/HyperEllipticSurfaceCustomizer.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/Schottky.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/ThetaCharIterator.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestLatticePointsInEllipsoid.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/GuIntMatrix.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/Transform.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/schottky/HyperElliptic.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/UnitCircleSymmetrie.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/GeneralRiemannSurface.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/Test.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/AbstractAlgebraicCurve.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/AbstractTheta.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/PointPassedCutEvent.java</path>
+<path
+   action="A">/branches/jrandom/lib/blas.jar</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/TestGuIntMat.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/TwoSurfacePointConstrain.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/homologie/SymmetricBasis.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface</path>
+<path
+   action="A">/branches/jrandom/src/riemann/theta/TestLatticePointsForUniformApproximation.java</path>
+<path
+   action="A">/branches/jrandom/lib/viewer3d.jar</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/CannotSetCoordinateException.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann/surface/LineSeg.java</path>
+<path
+   action="A">/branches/jrandom/src/riemann</path>
+</paths>
+<msg>alles neu macht der mai
+</msg>
+</logentry>
+<logentry
+   revision="1">
+<date>2002-05-29T16:42:34.000000Z</date>
+<paths>
+<path
+   action="A">/trunk</path>
+<path
+   action="A">/branches</path>
+<path
+   action="A">/tags</path>
+</paths>
+<msg>New repository initialized by cvs2svn.</msg>
+</logentry>
+</log>

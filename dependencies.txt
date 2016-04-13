@@ -1,0 +1,5 @@
+#jtem projects that blas depends on, one line for each
+blas
+mfc
+moebiusViewer
+numericalMethods
