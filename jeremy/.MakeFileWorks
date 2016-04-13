@@ -1,6 +1,12 @@
 SRCDIRS=../src
 
-BINDIR=classes
+BINDIR=../classes
+
+JUNIT=$(wildcard junit*.jar)
+
+LIBDIR=../lib
+
+JAVACOPTS=-target 1.6 -source 1.6
 
 SOURCEFILES=$(shell find $(SRCDIRS) -name '*.java')
 
@@ -10,6 +16,12 @@ DEPS=$(patsubst %,$(LIBDIR)/%.jar, $(DEPNAMES))
 
 .PHONY: jeremy
 jeremy: justASchottkyGroup.class
-justASchottkyGroup.class:justASchottkyGroup.java ; javac -d . -classpath . justASchottkyGroup.java
-
-clean: ; rm -f *.class
+justASchottkyGroup.class:justASchottkyGroup.class
+	javac $(JAVACOPTS) \
+		-classpath ../lib/mfc.jar:../lib/blas.jar:../lib/numericalMethods.jar:../classes/ \
+		-sourcepath ../src/ \
+		-d . \
+	   	justASchottkyGroup.java
+	
+	
+clean: ; rm -rf *.class
