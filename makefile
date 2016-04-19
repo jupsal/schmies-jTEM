@@ -166,10 +166,13 @@ $(BINDIR): $(SOURCEFILES) | $(DEPS)
 	
 # --- JEREMY ---
 #  See what we can do!
-$(JDIR): 
+jeremyClass: Employee.class
+Employee.class: Employee.class
+	javac -d CLASSLESS jeremy/JavaPracticeEmployeeStuff/here/jstuff/stuff/Employee.java
 
-# --- test ---
-#compile and run JUnit tests form TESTDIR	
+jeremyExecutable: EmployeeTest.class
+EmployeeTest.class: EmployeeTest.class
+	javac -d CLASSLESS -classpath "/data/Documents/research/RiemannSurfaces/jTEM-Jeremy/CLASSLESS/" jeremy/JavaPracticeEmployeeStuff/tests/EmployeeTest.java
 
 .PHONY: test
 test: .testscompiled

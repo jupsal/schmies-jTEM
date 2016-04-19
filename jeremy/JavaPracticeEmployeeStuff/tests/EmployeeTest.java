@@ -1,3 +1,5 @@
+package jstuff.stuff;
+
 import java.io.*;
 import jstuff.stuff.*;
 

@@ -6,3 +6,4 @@ executables: EmployeeTest.class
 EmployeeTest.class: EmployeeTest.class
 	javac -d . tests/EmployeeTest.java
 
+clean: ; rm -rf tests/*.class jstuff/stuff/*.class
