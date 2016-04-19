@@ -166,13 +166,11 @@ $(BINDIR): $(SOURCEFILES) | $(DEPS)
 	
 # --- JEREMY ---
 #  See what we can do!
-jeremyClass: Employee.class
-Employee.class: Employee.class
-	javac -d CLASSLESS jeremy/JavaPracticeEmployeeStuff/here/jstuff/stuff/Employee.java
+jeremy: Test1.class
+Test1.class: jeremy/tests/Test1.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/Test1.java
+	./runJeremyTests
 
-jeremyExecutable: EmployeeTest.class
-EmployeeTest.class: EmployeeTest.class
-	javac -d CLASSLESS -classpath "/data/Documents/research/RiemannSurfaces/jTEM-Jeremy/CLASSLESS/" jeremy/JavaPracticeEmployeeStuff/tests/EmployeeTest.java
 
 .PHONY: test
 test: .testscompiled
