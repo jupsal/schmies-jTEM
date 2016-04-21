@@ -166,10 +166,23 @@ $(BINDIR): $(SOURCEFILES) | $(DEPS)
 	
 # --- JEREMY ---
 #  See what we can do!
-jeremy: Test1.class
+jeremy: Test1.class KPData.class Test3.class
 Test1.class: jeremy/tests/Test1.java
 	javac -d classes -cp libUnzipped:classes jeremy/tests/Test1.java
-	./runJeremyTests
+	#./runJeremyTests
+
+KPData.class: jeremy/KPData.java
+	javac -d classes -cp libUnzipped:classes jeremy/KPData.java
+
+#Test2.class: jeremy/tests/Test2.java
+#	javac -d classes -cp libUnzipped:classes jeremy/tests/Test2.java
+#	#./runTest2
+# THIS ONE IS NULL
+
+Test3.class: jeremy/tests/Test3.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/Test3.java
+	./runTest3
+
 
 
 .PHONY: test

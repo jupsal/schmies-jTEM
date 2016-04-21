@@ -768,6 +768,8 @@ class AbelianDifferential
 
       final int numOfChilds = child.length;
 
+      System.out.println(child);
+
       for (int i = 0; i < numOfChilds; i++) {
         gamma(child[i]);
       }
