@@ -1,0 +1,109 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15">
+        <title>numericalMethods.algebra.linear.decompose</title>
+    </head>
+    <body>
+        Algorithms related to <em>decomposition of matrices</em> and their
+        <em>determinants</em>.
+        <p />
+        All algorithms are offered in an efficient version (using as few
+        resources as possible but having sometimes difficult arguments) and in
+        an inefficient version (that has therefore easy to use arguments).
+        <p />
+        The following table gives an overview of the different decomposition
+        algorithms (sorted by speed - fastest first, slowest last):
+        <p />
+        <table border="2" cellpadding="4" cellspacing="4">
+            <tr>
+                <th>class</th>
+                <th>advantages</th>
+                <th>disadvantages</th>
+                <th>minimal resources</th>
+                <th>algorithm</th>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        {@link numericalMethods.algebra.linear.decompose.LR}
+                    </code>
+                </td>
+                <td>
+                    &middot; very fast<br />
+                    &middot; no additional resources<br />
+                    &middot; when successful gives determinant<br />
+                </td>
+                <td>
+                    &middot; does not decompose all regular matrices<br />
+                    &middot; no control on condition of triangular matrices<br />
+                </td>
+                <td>
+                    &middot; one matrix<br />
+                </td>
+                <td>Gauss</td>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        {@link numericalMethods.algebra.linear.decompose.PLR}
+                    </code>
+                </td>
+                <td>
+                    &middot; fast<br />
+                    &middot; no additional resources<br />
+                    &middot; gives determinant<br />
+                </td>
+                <td>
+                    &middot; no control on condition of triangular matrices<br />
+                </td>
+                <td>
+                    &middot; one matrix<br />
+                    &middot; one vector<br />
+                </td>
+                <td>Gauss with pivoting</td>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        {@link numericalMethods.algebra.linear.decompose.QR}
+                    </code>
+                </td>
+                <td>
+                    &middot; triangular matrix has never worse condition than original matrix<br />
+                    &middot; gives ||determinant||<br />
+                </td>
+                <td>
+                    &middot; not very fast<br />
+                    &middot; sometimes not good-natured<br />
+                </td>
+                <td>
+                    &middot; two matrices<br />
+                </td>
+                <td>Gram-Schmidt</td>
+            </tr>
+            <tr>
+                <td>
+                    <code>
+                        {@link numericalMethods.algebra.linear.decompose.Householder}
+                    </code>
+                </td>
+                <td>
+                    &middot; always good-natured<br />
+                    &middot; few additional resources<br />
+                    &middot; works on non-square matrices (more rows than columns)<br />
+                    &middot; gives determinant<br />
+                </td>
+                <td>
+                    &middot; not very fast<br />
+                </td>
+                <td>
+                    &middot; one matrix<br />
+                    &middot; one vector<br />
+                    &middot; one temporary vector<br />
+                </td>
+                <td>Householder</td>
+            </tr>
+        </table>
+    </body>
+</html>

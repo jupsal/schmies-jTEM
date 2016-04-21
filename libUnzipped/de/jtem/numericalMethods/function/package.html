@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+</head>
+<body>
+    <p>Interfaces describing functional objects.
+    </p>
+    <p>Functional objects need to implement these interfaces
+      in order to interact with numericalMethods.
+    </p>    
+    <p> For example, an object <code>somefunction</code> representing a real
+      function of several real variables would implement the interfaces
+      {@link numericalMethods.function.DoubleValued} and {@link
+      numericalMethods.function.DoubleArrayParametrized}. A method which
+      minimizes such a function would have the signature
+    </p>
+
+    <p align=center> <code> minimize({@link
+        numericalMethods.function.DoubleArrayParametrized} p, {@link
+        numericalMethods.function.DoubleValued} v, double[] initialGuess)
+        </code>.
+    </p>
+    <p> To minimize the function represented by <code>someFunction</code>,
+      one would invoke
+    </p>
+    <p align=center>
+      <code>minimize(someFunction, someFunction, someInitialGuess)</code>.
+    </p> 
+  </body> 
+</html>
