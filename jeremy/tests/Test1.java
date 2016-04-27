@@ -6,6 +6,10 @@ import de.jtem.riemann.schottky.Schottky;
 import de.jtem.blas.*;
 import de.jtem.riemann.theta.*;
 
+/* 
+ *  This was the original test and is no longer operational. It has been moved
+ *  to a more functional approach in Test2.java
+ */
 
 public class Test1 {
     

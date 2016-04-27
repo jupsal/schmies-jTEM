@@ -21,13 +21,23 @@ public class KPData {
             data.setB( i, B[i] );
             data.setMu( i, mu[i] );
         }
+        System.out.println(data.getUniformizationData());
         schottky = new Schottky( data );
-        periodMatrix = schottky.getPeriodMatrix();
+        System.out.println("Number of elements = " + schottky.getNumElements());
+        printNumElements();
+        System.out.println("Is differential series evaluable? " + schottky.isDifferentialSeriesEvaluable()); // THIS ALSO CAUSES THE BUG
+        printNumElements();
+        System.out.println("Is Integral series evaluable? " + schottky.isIntegralSeriesEvaluable()); // THIS CAUSES THE BUG. After this numelements increases.
+        printNumElements();
+        printseriesEvaluableOrNot();
+        printNumElements();
+        // periodMatrix = schottky.getPeriodMatrix(); // Don't need this now?
         U = schottky.getV();    // U
         V = schottky.getV(2);   // V
         W = schottky.getV(3);   // W, from \theta(Ux + Vy + tW) in KP Soln
+        //printKPVectors();
         //THIS DOESN'T WORK!! //c = schottky.gamma();   // Constant at end of formula for KP soln
-
+        //System.out.println( "WTF?" + schottky.isSeriesEvaluable() );
     }
 
     public void printKPData() {
@@ -35,7 +45,8 @@ public class KPData {
         printCenters();
         printClassicallness();
         printNumElements();
-        printseriesEvaluableOrNot();
+        //printseriesEvaluableOrNot();
+        printNumElements();
         printKPVectors();
     }
 

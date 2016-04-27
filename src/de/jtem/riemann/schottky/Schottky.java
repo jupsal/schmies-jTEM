@@ -63,6 +63,7 @@ public class Schottky
   int numOfElements;
 
   /* value for series evaluablity test */
+  // JEREMY. WHAT DOES THIS VALUE DO?
   int l = 2;
   
   /* value for series evaluablity test */
@@ -133,10 +134,14 @@ public class Schottky
   }
 
   public Schottky(double[] uniformizationData, double accuracy) {
+      // for genus 1, uniformizationData is a length 6 array. 2 for each A, B,
+      // mu.
 
     super(uniformizationData);
 
+    System.out.println("Bout to init JEREMY. numGenerators = "+numGenerators);
     init();
+    System.out.println("After init JEREMY. generator[0].parent = " + generator[0].parent);
 
     this.acc = accuracy;
 
@@ -285,8 +290,16 @@ public class Schottky
   }
   
   public boolean isDifferentialSeriesEvaluable() {
+      System.out.println("JEREMY is the problem before we change kappa? " + getNumElements());
 	  double kappa = kappa(l);
-	  return (2 * numGenerators - 1) / kappa / kappa < C;
+      System.out.println("JEREMY - KAPPA2 = " + kappa);
+      System.out.println("1 / kappa / kappa = " + 1 / kappa / kappa);
+      System.out.println("(2 * numGenerators - 1) = " + (2 * numGenerators - 1) );
+      System.out.println("(2 * numGenerators - 1) / kappa / kappa = " + (2 * numGenerators - 1) / kappa / kappa);
+      System.out.println("C = " + C);
+      System.out.println("getNumElements2 = " + getNumElements());
+
+	  return (2 * numGenerators - 1) / kappa / kappa < C; // JEREMY Theorem 2.2.11 if C = 1 (for differentials)
   }
   
   public boolean isSeriesEvaluable() {
@@ -403,6 +416,7 @@ public class Schottky
     if (element.updateID == updateID) {
       return;
     }
+    System.out.println("Am I allowed to be in here? + numOfElements = " + numOfElements);
 
     if (element.leftIsInvert == 1) {
       element.assignTimes(generatorInv[element.left], element.parent);

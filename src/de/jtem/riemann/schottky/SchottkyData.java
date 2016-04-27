@@ -80,10 +80,23 @@ public class SchottkyData
 
   public SchottkyData() {
     this(2);
+    System.out.println("Does this even ever happen?");
   }
 
   public SchottkyData(int numOfGenerators) {
     this(getDefaultUniformizationData(numOfGenerators));
+    // numOfGenerators = genus
+    System.out.println("JEREMY1=" + numOfGenerators);
+    double[] JData;
+    JData = getDefaultUniformizationData(numOfGenerators);
+    System.out.println("Jdata = "+JData);
+    System.out.println("Jdata[0] = "+JData[0]);
+    System.out.println("Jdata[1] = "+JData[1]);
+    System.out.println("Jdata[2] = "+JData[2]);
+    System.out.println("Jdata[3] = "+JData[3]);
+    System.out.println("Jdata[4] = "+JData[4]);
+    System.out.println("Jdata[5] = "+JData[5]);
+    System.out.println("JEREMY2, getDefaultUniformizationData = " + getDefaultUniformizationData(numOfGenerators));
   }
 
   public SchottkyData(double[] uniformizationData) {
@@ -93,7 +106,9 @@ public class SchottkyData
           " uniformizatinoData has wrong length ");
     }
 
+    System.out.println("OKAY HERE"+uniformizationData.length);
     numGenerators = uniformizationData.length / 6;
+    System.out.println("numGenerators = "+ numGenerators);
 
     init();
 
@@ -235,6 +250,12 @@ public class SchottkyData
   public void setMu(int anIndex, Complex aComplex) {
     mu[anIndex].assign(aComplex);
     updateFromFixPointsAndMus(); ;
+    System.out.println("Uniformization Data[0] - = "+uniformizationData[0]);
+    System.out.println("Uniformization Data[1] - = "+uniformizationData[1]);
+    System.out.println("Uniformization Data[2] - = "+uniformizationData[2]);
+    System.out.println("Uniformization Data[3] - = "+uniformizationData[3]);
+    System.out.println("Uniformization Data[4] - = "+uniformizationData[4]);
+    System.out.println("Uniformization Data[5] - = "+uniformizationData[5]);
   }
 
   public double[] getDoubleArrayValue() {

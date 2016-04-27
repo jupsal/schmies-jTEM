@@ -299,12 +299,18 @@ class AbelianDifferential
       final private double evalKappaLBar(SchottkyGroupElement element,
                                          double kappa, int wordLength ) {
 
+
         if (element.wordLength > wordLength )
           return kappa;
+        System.out.println("JEREMY, numelements2 = "+schottky.getNumElements());
 
+        System.out.println("Bet it only breaks here!, element.child = " + element.child);
         if (element.updateID != updateID) {
+          System.out.println("Bet it only breaks here!, updateID = " + updateID);
+          System.out.println("Bet it only breaks here!, element.updateID = " + element.updateID);
           schottky.updateElement(element);
         }
+        System.out.println("JEREMY, numelements3 = "+schottky.getNumElements());
 
         if( element.wordLength == wordLength ) {
           kappa = Math.min( kappaLBar( element ), kappa );
@@ -330,13 +336,18 @@ class AbelianDifferential
        */
       public final double kappa( int wordLength ) {
 
+        System.out.println("JEREMY, wordLength (l) = "+wordLength);
+        System.out.println("JEREMY, numelements = "+schottky.getNumElements());
         if( wordLength < 2 )
           throw new IllegalArgumentException
               ( "kappa only defined for word legnth greater then one" );
 
         if (updateID != schottky.updateID)
           update();
+        System.out.println("JEREMY, numelements = "+schottky.getNumElements());
 
+
+        
         return evalKappaLBar(schottky.id, Double.MAX_VALUE, wordLength );
       }
 

@@ -2,6 +2,11 @@ package jeremy.tests;
 
 import de.jtem.mfc.field.Complex;
 
+/* 
+ *  This test only existed to see what kind of access was given my importing. It
+ *  is clear now and is used in Test3.java extensively. 
+ */
+
 public class Test2 {
     
     public static void main(String args[]) {
