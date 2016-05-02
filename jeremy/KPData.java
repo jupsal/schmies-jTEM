@@ -110,4 +110,31 @@ public class KPData {
         return result;
     }
 
+    public Complex[][][] KPSolutionOnGrid( int numxsteps, int numysteps, int numtsteps, double T) {
+        // Make a grid on (2pi)x(2pi) with gridspacing (points)x(points) number of points
+        double x = 0.0;
+        double y = 0.0;
+        double t = 0.0;
+
+        double maxX = 2*Math.PI; double maxY = 2*Math.PI;
+
+        double deltax = 2*Math.PI/numxsteps;
+        double deltay = 2*Math.PI/numysteps;
+        double deltat = T/numtsteps;
+
+        Complex[][][] result = new Complex[numxsteps][numysteps][numtsteps];
+
+        for( int i = 0; x<=maxX; i += 1 ) {
+            x += deltax;
+            for( int j = 0; y <= maxY; j += 1 ) {
+                y += deltay;
+                for( int k = 0; t <= T; k += 1 ) {
+                    t += deltat;
+                    result[i][j][k] = KPSolutionAt( x, y, t );
+                }
+            }
+        }
+        return result;
+    }
+
 }

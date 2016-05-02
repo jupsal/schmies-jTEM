@@ -14,6 +14,11 @@ public class Test3 {
         Complex soln;
         soln = data.KPSolutionAt( x, y, t );
         System.out.println(soln);
+        Complex[][][] gridSoln;
+        int numxsteps = 10; int numysteps = 10;
+        int numtsteps=10; double T = 1.0;
+        gridSoln = data.KPSolutionOnGrid(numxsteps,numysteps,numtsteps,T);
+        System.out.println(gridSoln[3][4][2]);
     }
 
     static private KPData example(int exampleNum) {
