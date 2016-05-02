@@ -8,11 +8,12 @@ import de.jtem.riemann.theta.*;
 
 public class KPData {
 
-    SchottkyData data; // Now we can mess with this.
-    Schottky schottky;
-    ComplexVector U, V, W, Z, T;
-    Complex c;
-    ComplexMatrix periodMatrix;
+    private SchottkyData data; // Now we can mess with this.
+    private Schottky schottky;
+    private ComplexVector U, V, W, Z, T;
+    private Complex c;
+    private ComplexMatrix periodMatrix;
+    private Theta theta;
 
     public KPData(Complex[] A, Complex[] B, Complex[] mu) {
         data = new SchottkyData( A.length );
@@ -38,7 +39,19 @@ public class KPData {
         //printKPVectors();
         //THIS DOESN'T WORK!! //c = schottky.gamma();   // Constant at end of formula for KP soln
         //System.out.println( "WTF?" + schottky.isSeriesEvaluable() );
+        Z = new ComplexVector( U.size() );
+        T = new ComplexVector( U.size() );
+        setTheta( schottky );
     }
+
+    public Theta getTheta() {
+        return theta;
+    }
+
+    public void setTheta( Schottky sk ) {
+        theta = new Theta( sk.getPeriodMatrix() );
+    }
+        
 
     public void printKPData() {
         printRadii();
@@ -84,6 +97,17 @@ public class KPData {
         System.out.println( "V = " + V );
         System.out.println( "W = " + W );
         //System.out.println( "c = " + c );
+    }
+
+    public Complex KPSolutionAt( double x, double y, double t ) {
+        Z.assignTimes( U, x );
+        T.assignTimes( V, y ); Z.assignPlus( T );
+        T.assignTimes( W, t ); Z.assignPlus( T );
+        Complex result = theta.ddLogTheta( Z, U, U );
+        // This doesn't work rn because c cannot be evaluated
+        // result.assinPlus(c);
+        result.assignTimes(2);
+        return result;
     }
 
 }

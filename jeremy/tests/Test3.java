@@ -8,7 +8,12 @@ public class Test3 {
 
         KPData data = example(0);
         data.printKPData();
-
+        double x = 0.001;
+        double y = 1.000;
+        double t = 10;
+        Complex soln;
+        soln = data.KPSolutionAt( x, y, t );
+        System.out.println(soln);
     }
 
     static private KPData example(int exampleNum) {
