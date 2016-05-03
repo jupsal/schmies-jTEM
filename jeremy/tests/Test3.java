@@ -1,10 +1,11 @@
 package jeremy.tests;
 
 import de.jtem.mfc.field.Complex;
+import java.io.*;
 
 public class Test3 {
     
-    public static void main(String args[]) {
+    public static void main(String args[]) throws IOException{
 
         KPData data = example(0);
         data.printKPData();
@@ -15,10 +16,20 @@ public class Test3 {
         soln = data.KPSolutionAt( x, y, t );
         System.out.println(soln);
         Complex[][][] gridSoln;
-        int numxsteps = 10; int numysteps = 10;
-        int numtsteps=10; double T = 1.0;
+        int numxsteps = 100; int numysteps = 100;
+        int numtsteps=100; double T = 5.0;
+        //String filename = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/filename.txt";
         gridSoln = data.KPSolutionOnGrid(numxsteps,numysteps,numtsteps,T);
-        System.out.println(gridSoln[3][4][2]);
+        System.out.println(gridSoln[4][3][9]);
+
+        // Try to do it with writing now.
+        File coordFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/coords.csv");
+        File solnFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/soln.csv");
+        PrintWriter coordWriter = new PrintWriter( new FileWriter(coordFile) );
+        PrintWriter solnWriter = new PrintWriter( new FileWriter(solnFile) );
+        data.writeKPSolutionOnGrid1( numxsteps, numysteps, numtsteps, T, coordWriter, solnWriter );
+        coordWriter.close();
+        solnWriter.close();
     }
 
     static private KPData example(int exampleNum) {

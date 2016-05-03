@@ -1,0 +1,81 @@
+javac -d classes -cp libUnzipped:classes jeremy/tests/Test1.java
+#./runJeremyTests
+javac -d classes -cp libUnzipped:classes jeremy/KPData.java
+javac -d classes -cp libUnzipped:classes jeremy/tests/Test3.java
+./runTest3
+OKAY HERE6
+numGenerators = 1
+JEREMY1=1
+Jdata = [D@1b3d4787
+Jdata[0] = 1.0
+Jdata[1] = 0.0
+Jdata[2] = -1.0
+Jdata[3] = 0.0
+Jdata[4] = 0.01
+Jdata[5] = 0.0
+JEREMY2, getDefaultUniformizationData = [D@45609812
+Uniformization Data[0] - = 4.0
+Uniformization Data[1] - = 0.0
+Uniformization Data[2] - = -4.0
+Uniformization Data[3] - = 0.0
+Uniformization Data[4] - = 1.0E-4
+Uniformization Data[5] - = 0.0
+[D@544764a1
+OKAY HERE6
+numGenerators = 1
+Bout to init JEREMY. numGenerators = 1
+After init JEREMY. generator[0].parent = (((1.0+0.0i),(0.0+0.0i)),((0.0+0.0i),(1.0+0.0i)))
+Number of elements = 3
+The number of elements in schottky group = 3
+JEREMY is the problem before we change kappa? 3
+JEREMY, wordLength (l) = 2
+JEREMY, numelements = 3
+JEREMY, numelements = 3
+JEREMY, numelements2 = 3
+Bet it only breaks here!, element.child = [Lde.jtem.riemann.schottky.SchottkyGroupElement;@50d55a0f
+JEREMY, numelements3 = 3
+JEREMY, numelements2 = 3
+Bet it only breaks here!, element.child = null
+JEREMY, numelements3 = 3
+JEREMY, numelements2 = 3
+Bet it only breaks here!, element.child = null
+Bet it only breaks here!, updateID = 1
+Bet it only breaks here!, element.updateID = -1
+Am I allowed to be in here? + numOfElements = 3
+JEREMY, numelements3 = 4
+Warning: unexpected distance measure
+JEREMY, numelements2 = 4
+Bet it only breaks here!, element.child = null
+JEREMY, numelements3 = 4
+JEREMY, numelements2 = 4
+Bet it only breaks here!, element.child = null
+Bet it only breaks here!, updateID = 1
+Bet it only breaks here!, element.updateID = -1
+Am I allowed to be in here? + numOfElements = 4
+JEREMY, numelements3 = 5
+Warning: unexpected distance measure
+JEREMY - KAPPA2 = 99.0097999799982
+1 / kappa / kappa = 1.0201020814193425E-4
+(2 * numGenerators - 1) = 1
+(2 * numGenerators - 1) / kappa / kappa = 1.0201020814193425E-4
+C = 0.75
+getNumElements2 = 5
+Is differential series evaluable? true
+The number of elements in schottky group = 5
+Am I allowed to be in here? + numOfElements = 5
+Am I allowed to be in here? + numOfElements = 6
+Is Integral series evaluable? true
+The number of elements in schottky group = 7
+Can we evaluate the series from the Schottky group? (T/F) : true
+The number of elements in schottky group = 7
+Circle-0 has radius = 0.0800080008000645
+Circle-0 has center = (4.000800080008001+0.0i)
+Circle-0' has center = (-4.000800080008001+-0.0i)
+This series is classical? (T/F) : true
+The number of elements in schottky group = 7
+The number of elements in schottky group = 7
+U = (8.0+0.0i)
+V = (0.0+0.0i)
+W = (128.0+0.0i)
+(2.5721283205784857+0.0i)
+(31.50545041804071+0.0i)
