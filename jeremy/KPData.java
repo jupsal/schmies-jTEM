@@ -168,7 +168,7 @@ public class KPData {
 
         coordinateWriter.print("t,");
         coordinateWriter.print("x,");
-        coordinateWriter.print("y,");
+        coordinateWriter.print("y");
         coordinateWriter.print("\n");
 
         solnWriter.print("Real part, Imag part");
@@ -185,15 +185,19 @@ public class KPData {
                 for( int j = 0; j < numysteps; j += 1 ) // y loop
                 {
                     // First write to the coordinate file.
-                    coordinateWriter.print( String.format("%f,",t) );
-                    coordinateWriter.print( String.format("%f,",x) );
-                    coordinateWriter.print( String.format("%f,",y) );
-                    coordinateWriter.print( "\n" );
+                    if ( t < 0.0001 ) {
+                        // Only do this at the initial time. Otherwise we just
+                        // keep writing the same thing. 
+                        coordinateWriter.print( String.format("%f,",t) );
+                        coordinateWriter.print( String.format("%f,",x) );
+                        coordinateWriter.print( String.format("%f",y) );
+                        coordinateWriter.print( "\n" );
+                    }
 
                     // Then calculate solution and write to KP file
                     result = KPSolutionAt( x, y, t );
                     solnWriter.print(String.format("%f,", result.getRe()) );
-                    solnWriter.print(String.format("%f,", result.getIm()) );
+                    solnWriter.print(String.format("%f", result.getIm()) );
                     solnWriter.print("\n");
 
                     // Then update y and move on.
@@ -208,54 +212,4 @@ public class KPData {
         coordinateWriter.flush();
         solnWriter.flush();
     }
-
-    /*
-    public static void writeKPSolutionOnGrid( int numxsteps, int numysteps, int numtsteps, double T, String coordFilename) throws IOException
-    {
-
-        // throws IOException means we simply won't catch it if there are any
-        // problems with IO.
-
-        // Make a grid on (2pi)x(2pi) with gridspacing (points)x(points) number of points
-        double x = 0.0;
-        double y = 0.0;
-        double t = 0.0;
-
-        double maxX = 2*Math.PI; double maxY = 2*Math.PI;
-
-        double deltax = 2*Math.PI/numxsteps;
-        double deltay = 2*Math.PI/numysteps;
-        double deltat = T/numtsteps;
-
-        Complex[][][] result = new Complex[numxsteps][numysteps][numtsteps];
-
-        // Create coordinate file
-        File coordFile = new File(coordFilename);
-        coordFile.getParentFile().mkdirs();
-        // Create coordinate printwriter
-        PrintWriter coordinateWriter = new PrintWriter(coordFile);
-        // Print title-type-stuff to file
-        coordinateWriter.println("Hey, this is a test");
-        coordinateWriter.print(',');
-
-        for( int i = 0; i < numxsteps; i += 1 )
-        {
-            y = 0.0;
-            for( int j = 0; j < numysteps; j += 1 )
-            {
-                t = 0.0;
-                for( int k = 0; k < numtsteps; k += 1 ) 
-                {
-                    result[i][j][k] = KPSolutionAt( x, y, t );
-                    t += deltat;
-                }
-                y += deltay;
-            }
-            x += deltax;
-        }
-        coordinateWriter.flush();
-        coordinateWriter.close();
-        return result;
-    }
-    */
 }

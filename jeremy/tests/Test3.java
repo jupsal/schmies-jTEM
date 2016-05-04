@@ -17,10 +17,9 @@ public class Test3 {
         System.out.println(soln);
         Complex[][][] gridSoln;
         int numxsteps = 100; int numysteps = 100;
-        int numtsteps=100; double T = 5.0;
+        int numtsteps = 300; double T = 10;
         //String filename = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/filename.txt";
         gridSoln = data.KPSolutionOnGrid(numxsteps,numysteps,numtsteps,T);
-        System.out.println(gridSoln[4][3][9]);
 
         // Try to do it with writing now.
         File coordFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/coords.csv");
