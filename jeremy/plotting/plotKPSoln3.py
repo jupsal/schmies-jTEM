@@ -74,9 +74,9 @@ def update(i, ax, fig):
     ax.set_xlabel('x'); ax.set_ylabel('y');
     return surf,
 
-ani = animation.FuncAnimation(fig, update, frames=len(realSoln)/tstep,
+ani = animation.FuncAnimation(fig, update, frames=10*len(realSoln)/tstep,
         fargs = (ax, fig), interval=20 )
-ani2 = animation.FuncAnimation(fig, update, frames=len(realSoln)/tstep,
+ani2 = animation.FuncAnimation(fig, update, frames=10*len(realSoln)/tstep,
         fargs = (ax, fig), repeat=False)
 # Save as gif. Requires imagemagick
 ani.save('animation1.gif', writer='imagemagick', fps=5)

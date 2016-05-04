@@ -82,4 +82,5 @@ ani = animation.FuncAnimation(fig, update, frames=len(realSoln)/tstep,
 #        writer=mywriter)
 
 #print("All saved up?")
+print("Hello, plot show?")
 plt.show()

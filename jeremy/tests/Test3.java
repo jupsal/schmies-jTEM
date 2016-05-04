@@ -7,7 +7,7 @@ public class Test3 {
     
     public static void main(String args[]) throws IOException{
 
-        KPData data = example(0);
+        KPData data = example(3);
         data.printKPData();
         double x = 0.001;
         double y = 1.000;
@@ -22,8 +22,8 @@ public class Test3 {
         gridSoln = data.KPSolutionOnGrid(numxsteps,numysteps,numtsteps,T);
 
         // Try to do it with writing now.
-        File coordFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/coords.csv");
-        File solnFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/soln.csv");
+        File coordFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/coords3.csv");
+        File solnFile = new File("/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/soln3.csv");
         PrintWriter coordWriter = new PrintWriter( new FileWriter(coordFile) );
         PrintWriter solnWriter = new PrintWriter( new FileWriter(solnFile) );
         data.writeKPSolutionOnGrid1( numxsteps, numysteps, numtsteps, T, coordWriter, solnWriter );
@@ -75,6 +75,21 @@ public class Test3 {
             System.out.println( "B[1]="+B[1]);
             mu[0] = new Complex( 0.076, 0 );
             mu[1] = new Complex( 0.014, 0 );
+            kdata = new KPData(A, B, mu);
+        }
+        else if( exampleNum == 3 ) {
+            // This is a genus 2 example of a KP2 solution as seen on p.163 of
+            // Algebro-geometric approach. It is a UII uniformization.
+            genus = 2;
+            A = new Complex[genus];
+            B = new Complex[genus];
+            mu = new Complex[genus];
+            A[0] = new Complex( -4, 0 );
+            B[0] = new Complex( 4, 0 );
+            mu[0] = new Complex( 1./10000, 0 );
+            A[1] = new Complex( -1, 0 );
+            B[1] = new Complex( 1, 0 );
+            mu[1] = new Complex( 1./1000, 0 );
             kdata = new KPData(A, B, mu);
         }
         else {
