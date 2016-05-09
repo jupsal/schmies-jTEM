@@ -1,3 +1,6 @@
+# This file is just a proof-of-working file for animating.
+
+
 from mpl_toolkits.mplot3d import axes3d
 import numpy as np
 import matplotlib.pyplot as plt

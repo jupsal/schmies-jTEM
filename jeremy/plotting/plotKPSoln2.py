@@ -12,12 +12,22 @@ from scipy import interpolate
 
 
 def main():
+    exampleNum = 0; # Have two different possible examples.
     cFileName = "./coords.csv"; # coordinate filename
     sFileName = "./soln.csv"; # solution filename
     coordData, solnData = loadData(cFileName, sFileName)
 
     createPlot()
     
+
+def chooseExample( exampleNum ):
+    if exampleNum==0:
+        coordfile = "./coords.csv"; #coordinate filename
+        solsfile = "./soln.csv"; # solution filename
+    else if exampleNum==1:
+        coordfile = "./coords2.csv"; #coordinate filename
+        solsfile = "./soln2.csv"; # solution filename
+        
 
 
 

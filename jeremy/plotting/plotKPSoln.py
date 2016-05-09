@@ -1,3 +1,7 @@
+## This is currently the working version, but it's messy. plotKPSoln2.py should
+## be fixing up the mess.
+
+
 ###########################################################################
 # This file holds the plotting routine for the KP solution from the Schmiesy
 # Thesie.
@@ -84,3 +88,14 @@ ani = animation.FuncAnimation(fig, update, frames=len(realSoln)/tstep,
 #print("All saved up?")
 print("Hello, plot show?")
 plt.show()
+
+## Below are possible ways to save. They should all be options.
+#ani = animation.FuncAnimation(fig, update, frames=10*len(realSoln)/tstep,
+#        fargs = (ax, fig), interval=20 )
+#ani2 = animation.FuncAnimation(fig, update, frames=10*len(realSoln)/tstep,
+#        fargs = (ax, fig), repeat=False)
+## Save as gif. Requires imagemagick
+#ani.save('animation1.gif', writer='imagemagick', fps=5)
+#ani.save('animation2.gif', writer='imagemagick', fps=10)
+#ani2.save('animation3.gif', writer='imagemagick', fps=5)
+#ani2.save('animation4.gif', writer='imagemagick', fps=10)
