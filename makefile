@@ -166,10 +166,11 @@ $(BINDIR): $(SOURCEFILES) | $(DEPS)
 	
 # --- JEREMY ---
 #  See what we can do!
-jeremy: Test1.class KPData.class Test3.class
-Test1.class: jeremy/tests/Test1.java
-	javac -d classes -cp libUnzipped:classes jeremy/tests/Test1.java
-	#./runJeremyTests
+jeremy: KPData.class
+
+#Test1.class: jeremy/tests/Test1.java
+#	javac -d classes -cp libUnzipped:classes jeremy/tests/Test1.java
+#	#./runJeremyTests
 
 KPData.class: jeremy/KPData.java
 	javac -d classes -cp libUnzipped:classes jeremy/KPData.java
@@ -179,10 +180,33 @@ KPData.class: jeremy/KPData.java
 #	#./runTest2
 # THIS ONE IS NULL
 
-Test3.class: jeremy/tests/Test3.java
-	javac -d classes -cp libUnzipped:classes jeremy/tests/Test3.java
-	./runTest3
+#Test3.class: jeremy/tests/Test3.java
+#	javac -d classes -cp libUnzipped:classes jeremy/tests/Test3.java
+#	./runTest3
 
+# Test4 is for testing how the solution to KP changes angle with different
+# groups
+#Test4.class: jeremy/tests/Test4.java
+#	javac -d classes -cp libUnzipped:classes jeremy/tests/Test4.java
+#	./runTest4
+
+test4: Test4.class
+# Test4 is for testing how the solution to KP changes angle with different
+# groups with centers on the real axis
+Test4.class: jeremy/tests/Test4.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/Test4.java
+	./runTest4
+
+test5: Test5.class
+# Test5 is for testing how the solution to KP changes angle with different
+# groups off the real axis but symmetric about the real axis
+Test5.class: jeremy/tests/Test5.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/Test5.java
+	./runTest5
+
+SingleTest: jeremy/tests/SingleTest.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/SingleTest.java
+	./runSingleTest
 
 
 .PHONY: test

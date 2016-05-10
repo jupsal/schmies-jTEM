@@ -1,0 +1,3 @@
+rm -f jeremy/plotting/data/SingleTest/*.csv jeremy/plotting/data/SingleTest/*.eps
+java -cp classes:libUnzipped jeremy/tests/SingleTest
+python jeremy/plotting/SingleTestPlotting.py

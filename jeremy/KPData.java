@@ -28,14 +28,14 @@ public class KPData {
         }
         System.out.println(data.getUniformizationData());
         schottky = new Schottky( data );
-        System.out.println("Number of elements = " + schottky.getNumElements());
-        printNumElements();
-        System.out.println("Is differential series evaluable? " + schottky.isDifferentialSeriesEvaluable()); // THIS ALSO CAUSES THE BUG
-        printNumElements();
-        System.out.println("Is Integral series evaluable? " + schottky.isIntegralSeriesEvaluable()); // THIS CAUSES THE BUG. After this numelements increases.
-        printNumElements();
-        printseriesEvaluableOrNot();
-        printNumElements();
+        // System.out.println("Number of elements = " + schottky.getNumElements()); // The printing is for debugging
+        //printNumElements();
+        // System.out.println("Is differential series evaluable? " + schottky.isDifferentialSeriesEvaluable()); // THIS ALSO CAUSES THE BUG
+        //printNumElements();
+        //System.out.println("Is Integral series evaluable? " + schottky.isIntegralSeriesEvaluable()); // THIS CAUSES THE BUG. After this numelements increases.
+        //printNumElements();
+        //printseriesEvaluableOrNot();
+        //printNumElements();
         // periodMatrix = schottky.getPeriodMatrix(); // Don't need this now?
         U = schottky.getV();    // U
         V = schottky.getV(2);   // V
@@ -77,7 +77,10 @@ public class KPData {
 
     public void printCenters() {
         Complex[][] centers;
+
         centers = data.getCenters();
+        // The format of centers is: centers[j][0] = C_j, centers[j][1] = C_j'
+
         for( int i=0; i<centers.length; i++ ) {
             System.out.println( "Circle-"+i+" has center = "+centers[i][0] );
             System.out.println( "Circle-"+i+"' has center = "+centers[i][1] );
@@ -143,10 +146,33 @@ public class KPData {
         return result;
     }
 
+    public void writeGroupData( PrintWriter groupWriter ){
+    // Save KPData (really GROUP data). Mostly for plotting later in Python.
+    // What we need is centers and radii.
+        groupWriter.print("Real Center,");
+        groupWriter.print("Imag Center,");
+        groupWriter.print("Radius");
+        groupWriter.print("\n");
+
+        Complex[][] centers;
+        centers = data.getCenters();
+        double[] radius;
+        radius = data.getRadius();
+
+        groupWriter.print( String.format( "%f,", centers[0][0].getRe() ) ); // C_0
+        groupWriter.print( String.format( "%f,", centers[0][0].getIm() ) ); // C_0
+        groupWriter.print( String.format( "%f", radius[0] ) ); // radius is the same for both.
+        groupWriter.print( String.format( "\n" ) );
+        groupWriter.print( String.format( "%f,", centers[0][1].getRe() ) ); // C_0'
+        groupWriter.print( String.format( "%f,", centers[0][1].getIm() ) ); // C_0
+        groupWriter.print( String.format( "%f", radius[0] ) ); // radius is the same for both.
+    }
+
 
     // Below we try to create a CSV file using PrintWriter, as seen in 
     // http://stackoverflow.com/questions/22824523/writing-to-csv-in-multiple-columns-inside-a-loop-java
     //
+    // This works. 
     public void writeKPSolutionOnGrid1( int numxsteps, int numysteps, int numtsteps, double T, PrintWriter coordinateWriter, PrintWriter solnWriter) throws IOException
     {
 
