@@ -13,8 +13,11 @@ from plotKPSoln import *
 # Choose the local filestructure based on what computer we are using. 
 #
 # Desktop in office.
-localFileStructure = ('/home/jeremy/Documents/research/'
-                        'RiemannSurfaces/jTEM-Jeremy/')
+#localFileStructure = ('/home/jeremy/Documents/research/'
+#                        'RiemannSurfaces/jTEM-Jeremy/')
+# Laptop.
+localFileStructure = ('/home/jeremy/Documents/schmies-jTEM/')
+
 def main():
 
     # Loop over all examples

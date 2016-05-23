@@ -12,6 +12,8 @@ public class SingleTest {
     
     public static void main(String args[]) throws IOException{
 
+        String localFileStructure = "/home/jeremy/Documents/schmies-jTEM/"; 
+
         for( int exampleNum = 0; exampleNum <= 0; exampleNum++)
         {
         //int exampleNum = 0;
@@ -24,9 +26,9 @@ public class SingleTest {
         int numtsteps = 1; double T = 1;
 
         // Define write filename
-        String coordStringName = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/plotting/data/SingleTest/coords" + Integer.toString(exampleNum) + ".csv";
-        String solnStringName = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/plotting/data/SingleTest/soln" + Integer.toString(exampleNum) + ".csv";
-        String groupStringName = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/jeremy/plotting/data/SingleTest/group" + Integer.toString(exampleNum) + ".csv";
+        String coordStringName = localFileStructure+"jeremy/plotting/data/SingleTest/coords" + Integer.toString(exampleNum) + ".csv";
+        String solnStringName = localFileStructure+"jeremy/plotting/data/SingleTest/soln" + Integer.toString(exampleNum) + ".csv";
+        String groupStringName = localFileStructure+"jeremy/plotting/data/SingleTest/group" + Integer.toString(exampleNum) + ".csv";
 
         // Create write file
         File coordFile = new File(coordStringName);

@@ -16,7 +16,8 @@ public class Test4 {
         // mainlevel of the git repo
         //
         // File structure for desktop in office. 
-        String localFileStructure = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/"; 
+        String localFileStructure = "/home/jeremy/Documents/schmies-jTEM/"; 
+        //String localFileStructure = "/home/jeremy/Documents/research/RiemannSurfaces/jTEM-Jeremy/"; 
 
         int numExamples = 6;
         for( int exampleNum = 0; exampleNum <= numExamples; exampleNum++)
