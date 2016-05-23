@@ -208,6 +208,11 @@ SingleTest: jeremy/tests/SingleTest.java
 	javac -d classes -cp libUnzipped:classes jeremy/tests/SingleTest.java
 	./runSingleTest
 
+test6: Test6.class
+# Test6 is for making the third derivative work as planned.
+Test6.class: jeremy/tests/Test6.java
+	javac -d classes -cp libUnzipped:classes jeremy/tests/Test6.java
+	./runTest6
 
 .PHONY: test
 test: .testscompiled

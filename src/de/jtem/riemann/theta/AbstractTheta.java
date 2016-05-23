@@ -122,7 +122,7 @@ abstract class AbstractTheta implements Serializable, Cloneable {
 
         expOfExponent.assignExp( exponent );
 	thetaAtZ.assignTimes( expOfExponent );
-	DXThetaAtZ.assignTimes( expOfExponent );
+    DXThetaAtZ.assignTimes( expOfExponent );
     }
 
     /**
@@ -133,7 +133,7 @@ abstract class AbstractTheta implements Serializable, Cloneable {
      * @return value of first derivative in <code>X</code> direction
      */
     public final Complex dTheta( final ComplexVector Z, final ComplexVector X ) {
-	dTheta( Z, X, exponent, thetaSumZ, thetaSumX );
+        dTheta( Z, X, exponent, thetaSumZ, thetaSumX );
 
         expOfExponent.assignExp( exponent );
         return thetaSumX.times( expOfExponent );
@@ -210,6 +210,11 @@ abstract class AbstractTheta implements Serializable, Cloneable {
 	return thetaSumXY.times( expOfExponent );
     }
 
+    public final void dLogThetaJeremy( final ComplexVector Z, 
+                final ComplexVector X,
+                final Complex DXLogThetaAtZJ ) {
+
+    }
     /**
      * Evaluates the first logarythmic derivative of the Riemann theta funciton
      * in the <code>X</code> direction at <code>Z</code>.
@@ -262,7 +267,19 @@ abstract class AbstractTheta implements Serializable, Cloneable {
 				  final ComplexVector Y,
 				  final Complex DXDYLogThetaAtZ ) {
 
+
+    System.out.println( "In the first ddLogTheta Call, Abstract, exponent?" + exponent);
+    System.out.println( "In the first ddLogTheta Call, Abstract, thetaSumZ?" + thetaSumZ);
+    System.out.println( "In the first ddLogTheta Call, Abstract, thetaSumX?" + thetaSumX);
+    System.out.println( "In the first ddLogTheta Call, Abstract, thetaSumY?" + thetaSumY);
+    System.out.println( "In the first ddLogTheta Call, Abstract, thetaSumXY?" + thetaSumXY);
+    // Okay. Each of the above things are initialized to 0.
 	ddTheta( Z, X, Y, exponent, thetaSumZ, thetaSumX, thetaSumY, thetaSumXY );
+    System.out.println( "In the first ddLogTheta Call, After, Abstract, exponent?" + exponent);
+    System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumZ?" + thetaSumZ);
+    System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumX?" + thetaSumX);
+    System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumY?" + thetaSumY);
+    System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumXY?" + thetaSumXY);
 
 	DXDYLogThetaAtZ.assignDivide( thetaSumXY, thetaSumZ );
 
@@ -291,6 +308,10 @@ abstract class AbstractTheta implements Serializable, Cloneable {
 				     final ComplexVector Y ) {
 
 	final Complex DXDYLogThetaAtZ = new Complex();
+    System.out.println( "In the second ddLogTheta Call, Abstract" );
+    System.out.println( "In the second ddLogTheta Call, Abstract, X" + X);
+    System.out.println( "In the second ddLogTheta Call, Abstract, Y" + Y);
+    System.out.println( "In the second ddLogTheta Call, Abstract, Z" + Z);
 
 	ddLogTheta( Z, X, Y, DXDYLogThetaAtZ );
 

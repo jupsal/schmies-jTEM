@@ -1298,10 +1298,13 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 		final Complex thetaSumXY) {
 
 		if (modularIsId) {
+            //System.out.println( "Which one, #1?, transform.M" + transform.M);
 
 			transform.setZ(Z);
 
 			factor.assign(transform.factor);
+
+            //System.out.println( "Which one, #1?, transform.factor" + transform.factor);
 
 			ddThetaSum(transform.transfromedZ, X, Y, thetaSumZ, thetaSumX, thetaSumY, thetaSumXY);
 
@@ -1325,6 +1328,8 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 			thetaSumY.assignPlus(tmp);
 
 		} else {
+
+            System.out.println( "Which one, #2?, Z" + Z);
 
 			modular.setZ(Z);
 			transform.setZ(modular.tZ);
