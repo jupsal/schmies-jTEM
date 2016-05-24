@@ -10,17 +10,9 @@ from mpl_toolkits.mplot3d import axes3d
 from scipy import interpolate
 
 
-def loadData( cFileName, sFileName, gFileName ):
-    coordData = np.genfromtxt(cFileName, dtype=float, delimiter=',', 
-            names=True); # comes in (t,x,y) tuples
-    solnData = np.genfromtxt(sFileName, dtype=float, delimiter=',', 
-            names=True); # comes in (Real, Imaginary) pairs.
-    groupData = np.genfromtxt(gFileName, dtype=float, delimiter=',', 
-            names=True); # comes in (Real, Imaginary) pairs.
-    return coordData, solnData, groupData
-
 def createPlot(coordData, solnData, groupData, figureLocation,
                 exampleNum=' NOT GIVEN'):
+
     # Create both the KP Soln plot and the Group Data plot side-by-side
     fig = plt.figure()
 
@@ -107,3 +99,4 @@ def plotKP( coordData, solnData, ax1, ax2 ):
             linewidth = 0.2)#, antialiased = True )
     ax2.set_zlim( np.min(realSoln), np.max(realSoln) )
     ax2.set_xlabel('x'); ax2.set_ylabel('y');
+

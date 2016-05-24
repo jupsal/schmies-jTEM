@@ -39,13 +39,13 @@ def main():
 
 def defFileNames( exampleNum ):
     coordfile = ( localFileStructure + 
-                '/jeremy/plotting/data/Test4/coords' + str(exampleNum)+'.csv' )
+                'jeremy/plotting/data/Test4/coords' + str(exampleNum)+'.csv' )
 
     solsfile = ( localFileStructure +   
-                '/jeremy/plotting/data/Test4/soln' + str(exampleNum)+'.csv' )
+                'jeremy/plotting/data/Test4/soln' + str(exampleNum)+'.csv' )
 
     groupfile = ( localFileStructure +   
-                '/jeremy/plotting/data/Test4/group' + str(exampleNum)+'.csv' )
+                'jeremy/plotting/data/Test4/group' + str(exampleNum)+'.csv' )
 
     return coordfile, solsfile, groupfile
 
