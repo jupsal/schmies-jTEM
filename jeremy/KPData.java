@@ -54,6 +54,7 @@ public class KPData {
 
     public void setTheta( Schottky sk ) {
         theta = new Theta( sk.getPeriodMatrix() );
+        System.out.println( "Period matrix=" + sk.getPeriodMatrix() );
     }
         
 

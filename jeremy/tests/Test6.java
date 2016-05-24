@@ -12,7 +12,7 @@ public class Test6 {
 
         KPData data = example(0);
         data.printKPData();
-        double x = 0.054;
+        double x = 1.000;
         double y = 1.000;
         double t = 0;
         Complex soln;

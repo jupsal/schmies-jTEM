@@ -211,6 +211,8 @@ SingleTest: jeremy/tests/SingleTest.java
 test6: Test6.class
 # Test6 is for making the third derivative work as planned.
 Test6.class: jeremy/tests/Test6.java
+	make binaries
+	make KPData.class
 	javac -d classes -cp libUnzipped:classes jeremy/tests/Test6.java
 	./runTest6
 

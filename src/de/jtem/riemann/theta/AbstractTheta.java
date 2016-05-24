@@ -281,6 +281,18 @@ abstract class AbstractTheta implements Serializable, Cloneable {
     System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumY?" + thetaSumY);
     System.out.println( "In the first ddLogTheta Call, After, Abstract, thetaSumXY?" + thetaSumXY);
 
+    /* What follows is simply the quotient rule. 
+     * If thetaSumZ = \theta(x \cdot U + y \cdot V) = \theta(z), 
+     * DXDYLogThetaAtZ = D_x D_y thetaSumZ
+     *             = D_x \frac{ V \theta'(z)}{\theta}
+     * = \frac{\theta^2(V\cdot U \theta''(z)) - U\theta'*(V\theta')}{\theta^2}
+     * = \frac{V \cdot U * \theta''(z)}{\theta}
+     *          - \frac{U\cdot V (\theta')^2}{\theta^2}
+     * = \frac{thetaSumXY}{thetaSumZ}
+     *          - \frac{thetaSumX*\thetaSumY}{thetaSumZ^2}
+     *    
+     *    -- COOL/OKAY
+     *    */
 	DXDYLogThetaAtZ.assignDivide( thetaSumXY, thetaSumZ );
 
 	tmp.assignTimes( thetaSumX, thetaSumY );

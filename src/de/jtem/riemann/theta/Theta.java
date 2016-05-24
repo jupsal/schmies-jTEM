@@ -1049,8 +1049,10 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 		final Complex thetaSumXY) {
 		
 		if( this.uniformApproximation ) {
+            System.out.println(" uniform?");
 			ddThetaSumUniform( Z, X, Y, thetaSumZ, thetaSumX, thetaSumY, thetaSumXY );
 		} else {
+            System.out.println(" pointwise?");
 			ddThetaSumPointwise( Z, X, Y, thetaSumZ, thetaSumX, thetaSumY, thetaSumXY );
 		}
 	}
@@ -1072,12 +1074,24 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 
 		final double[] expOfHalfBnnRe = expOfHalfBnn.re, expOfHalfBnnIm = expOfHalfBnn.im;
 
-		thetaSumZ.assign(1, 0);
-		thetaSumX.assign(0, 0);
-		thetaSumY.assign(0, 0);
-		thetaSumXY.assign(0, 0);
+		thetaSumZ.assign(1, 0); // theta(z|B) (oscillatory part)
+		thetaSumX.assign(0, 0); // D_X \theta(z|B) (oscillatory part)
+		thetaSumY.assign(0, 0); // D_Y \theta(z|B) (oscillatory part)
+		thetaSumXY.assign(0, 0); // D_{X,Y} \theta(z|B) (oscillatory part)
+
+        System.out.println("ddThetaSumUniform, numOfLatticePoints = " + numOfLatticePoints);
+        System.out.println("ddThetaSumUniform, dim = " + dim);
+        System.out.println("ddThetaSumUniform, zRe = " + Z);
+        System.out.println("ddThetaSumUniform, uRe = " + uRe);
+        System.out.println("ddThetaSumUniform, vRe = " + vRe);
+        System.out.println("ddThetaSumUniform, zIm = " + zIm);
+        System.out.println("ddThetaSumUniform, uIm = " + uIm);
+        System.out.println("ddThetaSumUniform, vIm = " + vIm);
 
 		for (int i = 1; i < numOfLatticePoints; i++) {
+            // Num lattice points is |\Lambda|
+            // This is the sum over $U_R$ in the uniform approximations in
+            // Deconinck et. al "Computing Riemann Theta Functions"
 
 			final double[] nRe = intLatticePointsRe[i];
 
@@ -1087,6 +1101,7 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 
 			for (int j = 0; j < dim; j++) {
 				final double n = nRe[j];
+                System.out.println("ddThetaSumUniform, nRe[j]" + n);
 
 				nZRe += zRe[j] * n;
 				nZIm += zIm[j] * n;
@@ -1098,19 +1113,40 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 				nYIm += vIm[j] * n;
 			}
 
-			expOfNZ.assignExp(nZRe, nZIm);
-			invOfExpOfNZ.assignInvert(expOfNZ);
+            System.out.println("ddThetaSumUniform, nXRe = " + nXRe);
+            System.out.println("ddThetaSumUniform, nXIm = " + nXIm);
+            System.out.println("ddThetaSumUniform, nYRe = " + nYRe);
+            System.out.println("ddThetaSumUniform, nYIm = " + nYIm);
 
-			// compute thetaSumZ
+			expOfNZ.assignExp(nZRe, nZIm);
+            System.out.println("ddThetaSumUniform, nZRe = " + nZRe);
+            System.out.println("ddThetaSumUniform, nZIm = " + nZIm);
+            System.out.println("ddThetaSumUniform, expOfNZ = " + expOfNZ);
+			invOfExpOfNZ.assignInvert(expOfNZ); // = 1/(expOfNZ)
+            System.out.println("ddThetaSumUniform, invOfexpOfNZ = " + invOfExpOfNZ);
+
+            System.out.println("ddThetaSumUniform, term1 = " + term);
+			// compute thetaSumZ = theta(z|B)
 			term.assignPlus(expOfNZ, invOfExpOfNZ);
+            System.out.println("ddThetaSumUniform, term2 = " + term);
 			term.assignTimes(expOfHalfBnn.re[i], expOfHalfBnn.im[i]);
+            // term = term*(u + i v), u = expOfHalfBnn.re[i]
+            System.out.println("ddThetaSumUniform, thetaSumZ1 = " + thetaSumZ);
 			thetaSumZ.assignPlus(term);
+            System.out.println("ddThetaSumUniform, thetaSumZ2 = " + thetaSumZ);
 
 			// compute thetaSumXY
+            System.out.println("ddThetaSumUniform, term3 = " + term);
 			term.assignTimes(nXRe, nXIm);
+            // term = term*(u+iv), u = nXRe = uRe[j] * n = real(U[j]) * n
+            System.out.println("ddThetaSumUniform, term4 = " + term);
 			term.assignTimes(nYRe, nYIm);
+            // term = term*(u+iv), u = nYRe = vRe[j] * n = real(U[j]) * n
+            System.out.println("ddThetaSumUniform, thetaSumXY1 = " + thetaSumXY);
 			thetaSumXY.assignPlus(term);
+            System.out.println("ddThetaSumUniform, thetaSumXY2 = " + thetaSumXY);
 
+            // Why would we want this? -- JEREMY
 			// compute thetaSumX and thetaSumY
 			term.assignMinus(expOfNZ, invOfExpOfNZ);
 			term.assignTimes(expOfHalfBnn.re[i], expOfHalfBnn.im[i]);
@@ -1298,26 +1334,52 @@ public class Theta extends AbstractTheta implements Serializable, Cloneable {
 		final Complex thetaSumXY) {
 
 		if (modularIsId) {
-            //System.out.println( "Which one, #1?, transform.M" + transform.M);
+            System.out.println( "Which one, #1?, transform.M" + transform.M);
 
+            // this is where all the transform stuff happens
+            System.out.println(" ddTheta, transform.M, before setZ =" + transform.M);
 			transform.setZ(Z);
+            System.out.println(" ddTheta, transform.M, after setZ =" + transform.M);
 
 			factor.assign(transform.factor);
 
-            //System.out.println( "Which one, #1?, transform.factor" + transform.factor);
+            System.out.println( "Which one, #1?, transform.factor" + transform.factor); // This is the exponentiall growing factor out front.
 
+            // Up to here, thetaSumZ = thetaSumX = thetaSumY = thetaSumXY = 0
 			ddThetaSum(transform.transfromedZ, X, Y, thetaSumZ, thetaSumX, thetaSumY, thetaSumXY);
+            System.out.println(" ddTheta, transform.transfromedZ =" + transform.transfromedZ);
+            // Now they have changed.
+            System.out.println(" ddTheta, thetaSumZ =" + thetaSumZ);
+            System.out.println(" ddTheta, thetaSumX =" + thetaSumX);
+            System.out.println(" ddTheta, thetaSumY =" + thetaSumY);
+            System.out.println(" ddTheta, thetaSumXY =" + thetaSumXY);
+            // thetaSumXY is the one we really care aboot.
 
-			ComplexVector.dotBilinear(X, transform.M, MX);
+			ComplexVector.dotBilinear(X, transform.M, MX); // MX is output here, = X.M, dot product
 			ComplexVector.dotBilinear(Y, transform.M, MY);
+            /* M is a real vector. According to the documentation it should be 
+             * M = -[ re(B)^(-1) re(z) ], re(B)^(-1) = Inverse[Re[B]]
+            */
+            System.out.println(" ddTheta, transform.M =" + transform.M);
+            System.out.println(" ddTheta, MY =" + MY);
+            System.out.println(" ddTheta, MX =" + MX);
+
+            // Does this change here?
+            System.out.println(" ddTheta, thetaSumXY2 =" + thetaSumXY);
+            System.out.println(" ddTheta, thetaSumX2 =" + thetaSumX);
+            System.out.println(" ddTheta, thetaSumY2 =" + thetaSumY);
 
 			// compute thetaSumXY
-			tmp.assignTimes(MX, thetaSumY);
-			thetaSumXY.assignPlus(tmp);
+			tmp.assignTimes(MX, thetaSumY); // why do we need to add this one?
+            System.out.println(" ddTheta, adding thetaSumY, tmp =" + tmp);
+			thetaSumXY.assignPlus(tmp); //?
 			tmp.assignTimes(MY, thetaSumX);
 			thetaSumXY.assignPlus(tmp);
+            System.out.println(" ddTheta, MY =" + MY);
+            System.out.println(" ddTheta, thetaSumZ =" + thetaSumZ);
 			tmp.assignTimes(MY, thetaSumZ);
-			tmp.assignTimes(MX);
+			tmp.assignTimes(MX); // last two lines are essentially tmp *= MY*thetaSumZ*Mx
+            System.out.println(" ddTheta, tmp =" + tmp);
 			thetaSumXY.assignPlus(tmp);
 
 			// compute thetaSumX
