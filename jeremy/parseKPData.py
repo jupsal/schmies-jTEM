@@ -19,15 +19,6 @@ def defFileNames( globalFileStructure, localFileStructure, exampleNum ):
     groupfile = ( globalFileStructure + localFileStructure +
                 'group' + str(exampleNum)+'.csv' )
             
-    #coordfile = ( localFileStructure + 
-    #            'jeremy/plotting/data/Test4/coords' + str(exampleNum)+'.csv' )
-
-    #solsfile = ( localFileStructure +   
-    #            'jeremy/plotting/data/Test4/soln' + str(exampleNum)+'.csv' )
-
-    #groupfile = ( localFileStructure +   
-    #            'jeremy/plotting/data/Test4/group' + str(exampleNum)+'.csv' )
-
     return coordfile, solsfile, groupfile
 
 def loadData( cFileName, sFileName, gFileName ):

@@ -26,7 +26,7 @@ globalFileStructure += '/'
 # localFileStructure tells us where the data is
 localFileStructure = ('plotting/data/Test4/')
 # Number of examples
-numExamples = 2; 
+numExamples = 1; 
 
 def main():
 
@@ -37,9 +37,10 @@ def main():
                 localFileStructure, exampleNum );
         coordData, solnData, groupData = loadData( cFileName, sFileName,
                 gFileName )
+        x, y, z = parseSolnData( coordData, solnData );
         plotFilename = ( globalFileStructure + localFileStructure +
                         'ExampleNum' + str(exampleNum) + '.eps')
-        createPlot( coordData, solnData, groupData, plotFilename, 
+        createPlot( x, y, z, groupData, plotFilename, 
                 exampleNum = str(exampleNum) )
 
     # Show all the plots at the end.

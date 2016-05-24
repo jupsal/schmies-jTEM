@@ -5,6 +5,7 @@
 
 from plotting.plotKPSoln import createPlot
 from parseKPData import *
+from step2 import checkStep2
 import matplotlib.pyplot as plt
 import os
 
@@ -26,7 +27,7 @@ globalFileStructure += '/'
 # localFileStructure tells us where the data is
 localFileStructure = ('plotting/data/Test5/')
 # Number of examples
-numExamples = 6
+numExamples = 1
 
 def main():
 
@@ -37,10 +38,14 @@ def main():
                 localFileStructure, exampleNum );
         coordData, solnData, groupData = loadData( cFileName, sFileName,
                 gFileName )
+        x, y, z = parseSolnData( coordData, solnData );
         plotFilename = ( globalFileStructure + localFileStructure +
                         'ExampleNum' + str(exampleNum) + '.eps')
-        createPlot( coordData, solnData, groupData, plotFilename, 
+        createPlot( x, y, z, groupData, plotFilename, 
                 exampleNum = str(exampleNum) )
+        
+        # After plotting, let's see if the data is one-dimensional
+        checkStep2(x, y, z)
 
     # Show all the plots at the end.
     plt.show()
